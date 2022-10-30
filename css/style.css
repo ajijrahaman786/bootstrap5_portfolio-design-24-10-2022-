@@ -1,0 +1,387 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* global style */
+* {
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,li{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none;
+	color: white;
+	transition: all 0.3s ease;
+}
+.section-title{
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 7%;
+}
+.section-title h2{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    padding: 10px 0px;
+    position: relative;
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+}
+.section-title p{
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    padding: 10px 0px;
+    width: 55%;
+    margin: 0 auto;
+}
+.section-title h2::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2%;
+    background-color: #723ee9;
+    transform: skewY(-1deg);
+}
+.section-title .text-white::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2%;
+    background-color: white;
+    transform: skewY(-1deg);
+}
+
+/* header-section starts */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7938e6;
+    z-index: 2;
+}
+a.navbar-brand img {
+    width: 30%;
+    height: auto;
+}
+li.nav-item {
+    padding: 0px 10px;
+}
+a.nav-link {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
+
+/* header-section ends */
+
+/* home-section starts */
+.home-section {
+    padding: 40px 0px;
+    height: auto;
+}
+.home-text h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.home-text p{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    padding: 10px 0px;
+    width: 80%;
+}
+.img-group img{
+    width: 30%;
+    height: auto;
+}
+
+.home-img{
+    margin-top: 5rem;
+}
+.home-img img {
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    animation: bounceTop 7s ease infinite;
+}
+
+@keyframes bounceTop{
+
+    0%,100%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+}
+/* home-section ends */
+
+
+/* service-section starts */
+.service-section{
+    margin-top: 5%;
+}
+.service-item {
+    padding: 30px 0px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.service-item-1 {
+    padding: 30px 0px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 15px 0px rgb(114 62 233);
+    transform: translateY(-10px);
+}
+.service-item:hover{
+    box-shadow: 1px 0px 15px 0px rgb(114 62 233);
+    transform: translateY(-10px);
+}
+.fa-headset,
+.fa-pen-nib,
+.fa-database{
+    font-size: 70px;
+    color: #723ee9;
+    padding: 15px 0px;
+}
+
+.service-item h2{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}
+.service-item p{
+    font-size: 17px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0px;
+    width: 95%;
+}
+.service-item-1 h2{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}
+.service-item-1 p{
+    font-size: 17px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0px;
+    width: 95%;
+}
+/* service-section ends */
+
+/* about-section starts */
+
+.about-section{
+    margin-top: 5%;
+    background-color: #f9fafb;
+}
+.py-5 {
+    padding-top: 5rem!important;
+    padding-bottom: 3rem!important;
+}
+.about-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.fa-desktop{
+    font-size: 80px;
+    color: #723ee9;
+}
+.about-text h1{
+    font-size: 50px;
+    color: #7d2fda;
+    font-weight: 500;
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+.about-text p {
+    font-size: 17px;
+    color: gray;
+    font-weight: 300;
+    padding: 10px 0px;
+    width: 90%;
+}
+
+
+/* about-section ends */
+
+
+/* features-seection starts */
+
+.feature-section{
+    margin-top: 5%;
+    background-color: #7d2fda;
+    padding: 20px 0px;
+}
+
+.py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 7.5rem!important;
+}
+
+.feature-img img{
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.feature-text h2{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 0px;
+    text-align: right;
+}
+.feature-text p{
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    padding: 12px 0px;
+    text-align: right;
+}
+.feature-icon{
+    font-size: 60px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 13px 0px;
+    text-align: center;
+}
+.feature-text .feature-text-1{
+    text-align: left;
+}
+.feature-text .feature-para-1{
+    text-align: left;
+}
+
+
+
+
+/* features-seection ends */
+
+
+/* pricing-section starts */
+
+.pricing-section{
+    margin-top: 5%;
+}
+.card{
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    background-color: #7938e6
+}
+.card:hover h1{
+    color: white;
+}
+.card:hover h4{
+    color: white;
+}
+.card:hover p{
+    color: white;
+}
+.card:hover button.btn-btn-1{
+    color: white;
+}
+.card-1{
+    background-color: #7938e6;
+    border-radius: 5px;
+}
+.price-1 h1{
+    color: white;
+}
+.price-1 h4{
+    color: white;
+}
+.card-body-1 p{
+    color: white;
+}
+.card-body-1 span{
+    color: black;
+}
+.card-1 button.btn-btn-1{
+    color: white;
+}
+.card-img img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.price h1{
+    font-size: 60px;
+    color: #7938e6;
+    font-weight: bold;
+}
+.price h4{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.card-body p{
+    font-size: 14px;
+    color: gray;
+    font-weight: 300;
+    padding: 4px 0px;
+    margin: 0;
+}
+.card-body span{
+    font-weight: bold;
+    color: black;
+}
+button.btn-btn-1{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid #4c00ff;
+    background: #4c00ff;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+button.btn-btn-1:hover{
+    transform: translateY(-10px);
+}
+
+/* pricing-section ends */
+
+
+/* achievement-seection starts */
+
+/* achievement-seection ends */
+
+
+/* headline-section starts */
+
+/* headline-section ends */
+
+
+/* trands-section starts */
+
+/* trands-section ends */

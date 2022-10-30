@@ -1,0 +1,261 @@
+@media (min-width: 320px) and (max-width: 767px){
+    #mymenu{
+        background-color: #5f57ea;
+        border-radius: 5px;
+        margin-top: 15px;
+        padding: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    } 
+    .home-section {
+        padding: 70px 0px;
+    }
+    .home-text h1 {
+        font-size: 33px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .home-text p {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .img-group img {
+        width: 48%;
+        margin: 0 auto;
+        display: table;
+    }
+    .home-img img {
+        max-width: 280px;
+        margin: 0 auto;
+        display: table;
+    }
+    .section-title p{
+        width: 100%;
+    }
+    .about-text{
+        margin-top: 7%;
+    }
+    .about-text h1{
+        font-size: 35px;
+    }
+    .about-text p {
+        width: 100%;
+    }
+    .mt-4 {
+        margin-top: 0.5rem!important;
+    }
+    .section-title h2{
+        width: 70%;
+    }
+    .feature-text h2{
+        text-align: center;
+    }
+    .feature-text p{
+        text-align: center;
+    }
+    .feature-icon {
+        padding: 15px 0px;
+        width: 28%;
+        margin: 0 auto;
+    }
+    .feature-img{
+        padding-top: 10%;
+        margin: 0 auto;
+        display: table;
+    }
+    .feature-text .feature-text-1{
+        text-align: center;
+    }
+    .feature-text .feature-para-1{
+        text-align: center;
+    }
+    .py-4 {
+        padding-bottom: 3.5rem!important;
+    }
+    .card {
+        margin: 5rem 2rem 1rem;
+    }
+    .card-1 {
+        margin: 4rem 2rem 0rem;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    li.nav-item {
+        padding: 0px 3px;
+    }
+    a.nav-link {
+        font-size: 13px;
+    }
+    #mymenu{
+        background-color: #5f57ea;
+        border-radius: 5px;
+        margin-top: 15px;
+        padding: 15px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    } 
+    .home-text h1 {
+        font-size: 35px;
+    }
+    .home-text p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .home-img img {
+        max-width: 240px;
+        margin: 0 auto;
+        display: table;
+    }
+    .about-text{
+        margin-top: 7%;
+    }
+    .about-text p {
+        width: 100%;
+    }
+    .mt-4 {
+        margin-top: 1.0rem!important;
+    }
+    .about-img img{
+        margin: 0 auto;
+        display: table;
+    }
+    .feature-text h2{
+        text-align: center;
+    }
+    .feature-text p{
+        text-align: center;
+    }
+    .feature-icon {
+        padding: 15px 0px;
+        width: 28%;
+        margin: 0 auto;
+    }
+    .feature-img{
+        padding-top: 10%;
+        margin: 0 auto;
+        display: table;
+    }
+    .feature-text .feature-text-1{
+        text-align: center;
+    }
+    .feature-text .feature-para-1{
+        text-align: center;
+    }
+    .section-title h2{
+        width: 42%;
+    }
+    .section-title p{
+        width: 100%;
+    }
+    .feature-icon{
+        font-size: 80px;
+        padding: 30px 0px;
+    }
+    .feature-img img {
+        max-width: 600px;
+    }
+    .py-4 {
+        padding-bottom: 3.5rem!important;
+    }
+    
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+    a.navbar-brand img {
+        width: 45%;
+
+    }
+    li.nav-item {
+        padding: 0px 5px;
+    }   
+    .home-section {
+        padding: 35px 0px;
+    }
+    .home-text h1 {
+        font-size: 45px;
+    }
+    .home-text p {
+        font-size: 16px;
+    }
+    .home-img img {
+        max-width: 290px;
+    }
+    .about-text h1{
+        font-size: 35px;
+    }
+    .about-text p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .section-title h2{
+        width: 33%;
+    }
+    .section-title p{
+        width: 80%;
+    }
+    .feature-text h2 {
+        font-size: 15px;
+    }
+    .feature-text p {
+        font-size: 13px;
+    }
+    .feature-img img {
+        max-width: 300px;
+        margin-top: 15%;
+    }
+    .feature-icon {
+        font-size: 40px;
+
+    }
+    .py-4{
+        padding-bottom: 3.5rem!important;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1199px){
+    a.navbar-brand img {
+        width: 60%;
+
+    }
+    .home-section {
+        padding: 35px 0px;
+    }
+    .home-text h1 {
+        font-size: 50px;
+    }
+    .home-text p {
+        font-size: 16px;
+    }
+    .home-img img {
+        max-width: 297px;
+    }
+    .about-text h1{
+        font-size: 35px;
+    }
+    .about-text p {
+        width: 100%;
+        font-size: 16px;
+    }
+    .section-title h2{
+        width: 30%;
+    }
+    .section-title p{
+        width: 70%;
+    }
+    .feature-text h2 {
+        font-size: 18px;
+    }
+    .feature-text p {
+        font-size: 13px;
+    }
+    .feature-icon {
+        font-size: 42px;
+        padding: 12px 0px;
+    }
+    .feature-img img {
+        max-width: 300px;
+        margin-top: 17%;
+    }
+}
